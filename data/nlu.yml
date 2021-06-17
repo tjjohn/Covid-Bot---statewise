@@ -1,0 +1,163 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+- intent: test
+  examples: |
+    - negative
+    - positive
+- intent: result
+  examples: |
+    - where is my corona result ?
+    - where is  result ?
+    
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: name
+  examples: |
+    - im [john](person)   # catgory extractated at actions by using tracker
+    - im [jose](person)
+    - im [mary](person)
+    
+- intent: covid
+  examples: |
+    - [Andhra Pradesh](state)
+    - [Assam](state)
+    - [Bihar](state)
+    - [Delhi](state) 
+    - [Gujarat](state)
+    - [Haryana](state) 
+    - [Karnataka](state)
+    - [Kerala](state) 
+    - [Jharkhand](state)
+    - [Maharashtra](state) 
+    - [Madhya Pradesh](state) 
+    - [Odisha](state) 
+    - [Rajasthan](state) 
+    - [Tamil Nadu](state) 
+    - [Telangana](state) 
+    - [Uttar Pradesh](state) 
+    - [Uttarakhand](state) 
+    - [West Bengal](state)
+    - [punjab](state)
+    - [Andaman and Nicobar Islands](state) 
+    - [Andhra Pradesh](state) 
+    - [Arunachal Pradesh](state) 
+    - [Bihar](state) 
+    - [Chandigarh](state) 
+    - [Chhattisgarh](state) 
+    - [Dadra and Nagar Haveli and Daman and Diu](state) 
+    - [Goa](state) 
+    - [Himachal Pradesh](state)
+    - [Jammu and Kashmir](state)
+    - [West Bengal](state)
+    - [Ladakh](state) 
+    - [Lakshadweep](state) 
+    - [Meghalaya](state) 
+    - [Mizoram](state) 
+    - [Nagaland](state) 
+    - [Puducherry](state) 
+    - [Punjab](state) 
+    - [Rajasthan](state) 
+    - [Sikkim](state)
+    - [Tripura](state)
+    
+    
+    
+    
+    
+    
+    
+      
+                 
+                      
+         
+   
+    
+

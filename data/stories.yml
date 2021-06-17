@@ -1,0 +1,51 @@
+version: "2.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+  
+- story: test path
+  steps:
+  - intent: test
+  - action: utter_test  # goes to domian for text
+  
+- story: result path
+  steps:  
+  - intent: result
+  - action: action_result  # goes to domain-> then action for text
+  
+- story: covid path
+  steps:  
+  - intent: covid
+  - action: action_covid  
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+  
+- story: name path 
+  steps:
+  - intent: name
+  - action: nameaction
+  
